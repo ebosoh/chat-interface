@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+span{
+    color: red;
+}
+
+body{
+height: 100vh;
+background-color: #f8f8f8;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container{
+    width: 450px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px black;
+    background-color: dodgerblue;
+    color: white;
+
+
+}
+
+.header, h1{
+    color: black;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+    
+
+.main{
+    flex: 1;
+    color: black;
+    background-color: white;
+    padding: 20px 30px;
+    
+    }
+
+.message{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+}
+   
