@@ -85,16 +85,16 @@ color: white;
 form button:hover{
     background-color: red;
     color: dodgerblue;
-    transition: 0.2s
+    transition: 0.2s ease;
+    border-radius: 5px;
 }
 
 
 form input{
 
 flex: 1;
-height: 40px;
-border: none;
-outline: none;
+height: 50px;
+
 padding-left: 5px;
 font-size: 20px;
 
